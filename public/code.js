@@ -1,7 +1,7 @@
 alert("File \"code.js\" loads automatically");
 button("hi","hi");
 onEvent("hi","click", function(e){
-    alert("hi");
+    alert("lalal");
     console.log(e);
 });
 
