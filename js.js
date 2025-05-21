@@ -9,7 +9,7 @@ for(var i = 0; i < 3; i++){
     var newBTN = BTN.cloneMode(true)
     document.body.append(newBTN);
     newBTN.addEventListener("click", doSomething)
-rwwe
+
 }
 
-alert("PLEASE LET IT WORK!!!!")
+alert("PLEASE LET IT WOk!!!")
