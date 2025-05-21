@@ -1,10 +1,15 @@
-var list = [
-    "Frozen burritos",
-    "banana foster",
-    "egg McMufin with egg"
-];
+var BTN = document.getElementById("myButton")
 
-
-for(let i = 0; i < list; i++){
-    alert("Frozen burrito :" + list[i]);
+vat doSomething = function(event){
+    alert("Praise me!")
+    console.log(event)
 }
+
+for(var i = 0; i < 3; i++){
+    var newBTN = BTN.cloneMode(true)
+    document.body.append(newBTN);
+    newBTN.addEventListener("click", doSomething)
+
+}
+
+alert("PLEASE LET IT WORK!!!!")
